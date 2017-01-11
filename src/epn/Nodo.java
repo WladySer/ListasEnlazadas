@@ -2,11 +2,14 @@ package epn;
 	public class Nodo { 
 		private String element;
 		private Nodo next; 
-		public Nodo(String s, Nodo n) {
-			element = s;
-			next = n;
-		}
-	
+	public Nodo(String s, Nodo n) {
+		element = s;
+		next = n;
+	}
+	public Nodo(String s) {
+		element = s;
+		next = null;
+	}
   
 	public String getElement() { 
 		return element;

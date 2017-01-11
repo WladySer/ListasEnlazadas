@@ -21,14 +21,6 @@ public class ListaEnlas {
 		 head = new Nodo(entrada,head);
 		 
 	}
-	public String ImprimirContenido(){
-	String contenido="";
-    Nodo<T> aux=primero;
-    
-    while(aux!=null){
-        contenido+=aux.getDato()+"\n"; //guardamos el dato
-        aux=aux.getSiguiente();
-    }
-	}
+	
 	// "update and search methods would go here ...
 }

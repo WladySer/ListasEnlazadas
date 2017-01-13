@@ -2,10 +2,12 @@ package epn;
 	public class Nodo { 
 		private String element;
 		private Nodo next; 
+		
 	public Nodo(String s, Nodo n) {
 		element = s;
 		next = n;
 	}
+	
 	public Nodo(String s) {
 		element = s;
 		next = null;
@@ -25,7 +27,12 @@ package epn;
 	public void setNext( Nodo newNext) {
 		 next=newNext;
 	}
+
+	@Override
+	public String toString() {
+		return "Nodo [element=" + element + ", next=" + next + "]";
+	}
+	
+	
 	
 	}
-
-
